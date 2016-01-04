@@ -1,0 +1,374 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+     
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  }
+
+/**********************************
+Remove dotted line from clicked images
+***********************************/
+a, a:active, a:focus {
+outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+#email img {
+  
+  max-width: 60px;
+
+  position: absolute;
+    top: 0%;
+    right: 5%;
+  border-radius: 100%;
+}
+
+#email img{
+ 
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+}
+
+#email img:hover{
+   -webkit-transform: scale(1.5,1.5);
+   -moz-transform:scale(1.5,1.5);
+   -webkit-opacity: 1;
+   -moz-opacity: 1;
+}
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+
+
+
+#gallery img {
+  
+  max-width: 80px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+#gallery img:hover{
+    opacity: .6;
+}
+
+
+#gallery {
+ 
+  margin: 0;
+  padding: 0;
+  width:500px;
+  list-style: none; 
+ 
+}
+
+
+
+
+
+#gallery2 li {
+  float: left;
+  width: 31%;
+ 
+ 
+  
+  margin: 1%;
+  background-color: #e4dcd5;
+  color: #bdc3c7;
+  border:thick;
+  
+ 
+  
+}
+
+#gallery2 li a p {
+  margin: auto 15% auto;
+   width:90%;
+  padding: 1% 100% 5% 5%;
+  font-size: 0.75em ;
+  color: #000;
+ 
+  
+}
+
+#gallery2 img{
+border-radius:15%;
+border-radius:10px;
+border: 5px #592c15 solid;
+overflow:hidden;
+ display: inline-block;
+ }
+
+#gallery2 {
+  margin: 200px;
+  padding: 0;
+  list-style: none;
+  
+  }
+
+#gallery2 li a firstImage{
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+
+}
+
+
+#gallery2 img:hover{
+    -webkit-filter: brightness(150%);
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+
+    position:fixed;
+    bottom:0;
+    left:50%;
+    margin-left:-200px; /*negative half the width */
+    width:400px;
+  }
+
+
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #e4dcd5;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #592c15;
+  border-color: #154259;
+}
+
+/* nav background on mobile */
+nav {
+  background: #154259;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+#about p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+.Resume_icon{
+  margin:25%;
+  width:7%;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+}
+
+.Resume_icon:hover{
+   -webkit-transform: scale(1.5,1.5);
+   -moz-transform:scale(1.5,1.5);
+   -webkit-opacity: 1;
+   -moz-opacity: 1;
+}
+
+/**********************************
+PAGE: Smartride
+***********************************/
+#smartwatchBody p{
+text-align: justify;
+  text-justify: inter-word;
+}
+
+
+#watch {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+ 
+}
+
+#MobileMock{
+text-align:center;
+  margin-bottom:5%;
+}
+
+#MobileMock img{
+  max-width: 20%;
+  border-radius:2%;
+ display: inline-block;
+  border:1px solid #666  
+   
+}
+
+
+
+
+/**********************************
+PAGE: Javascript
+***********************************/
+#innerPage h2{
+  text-align: left;
+  text-justify: inter-word;
+  color: black;
+  font-size: 2em;
+  
+}
+
+
+
+#innerPage li{
+  list-style-type: disc;
+   margin-top: 5%;
+  
+}
+
+
+/**********************************
+Remove white space from the corners
+***********************************/
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+#gallery2 img{height: 150px;
+width:400px}
+
+
+

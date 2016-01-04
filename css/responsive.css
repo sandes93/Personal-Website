@@ -1,0 +1,92 @@
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  
+ 
+    
+***********************************/
+  
+ 
+  #icons, projects{
+   width:100px;
+   
+   
+    margin-right:40px;
+   
+    float:left;
+}
+  
+  
+  
+  @media screen and (max-width: 480px) {
+
+      #icons, projects{
+   
+      width:100px;
+   
+   
+    margin-right:40px;
+   
+    float:left;
+      clear:both;
+     
+}
+    
+    
+#gallery2 li {
+  float: none;
+  width: 70%;
+ 
+ 
+  
+  margin: 50%;
+  background-color: #e4dcd5;
+  color: #bdc3c7;
+  border:thick;
+  
+ 
+  
+}
+  
+  }
+  
+  /**********************************
+  PAGE: PORTFOLIO
+  
+
+  ************************/
+  
+  
+  
+/**********************************
+  MIGHT NEED IN FUTURE
+  
+  #icons {
+   float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+  
+  #projects {
+  float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-top:2px solid #000;   
+
+}
+
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  ***********************************/
+
