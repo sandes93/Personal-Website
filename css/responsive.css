@@ -1,92 +1,135 @@
 @media screen and (min-width: 480px) {
   
   /**********************************
-  TWO COLUMN LAYOUT
-  
- 
-    
+  TWO COLUMN LAYOUT   
 ***********************************/
-  
- 
-  #icons, projects{
-   width:100px;
-   
-   
-    margin-right:40px;
-   
-    float:left;
-}
-  
-  
-  
-  @media screen and (max-width: 480px) {
-
-      #icons, projects{
-   
-      width:100px;
-   
-   
-    margin-right:40px;
-   
-    float:left;
-      clear:both;
-     
-}
-    
-    
-#gallery2 li {
-  float: none;
-  width: 70%;
- 
- 
-  
-  margin: 50%;
+  #gallery2 li {
+  float: left;
+  width: 31%;
+  margin: 1%;
   background-color: #e4dcd5;
   color: #bdc3c7;
   border:thick;
   
+ }
+
+#gallery2 li a p {
+  margin: auto 15% auto;
+   width:90%;
+  padding: 1% 100% 5% 5%;
+  font-size: 0.75em ;
+  color: #000;
  
   
 }
+
+#gallery2 img{
+border-radius:15%;
+border-radius:10px;
+border: 5px #592c15 solid;
+overflow:hidden;
+ display: inline-block;
+ }
+
+#gallery2 {
+  margin: 160px;
+  padding: 0;
+  list-style: none;
   
   }
-  
-  /**********************************
-  PAGE: PORTFOLIO
-  
 
-  ************************/
-  
-  
-  
-/**********************************
-  MIGHT NEED IN FUTURE
-  
-  #icons {
-   float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
-  }
-  
-  #projects {
-  float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-top:2px solid #000;   
-
+#gallery2 a {
+  position: relative;
 }
 
+#gallery2 a span {
+  display: none;
+  position: absolute;
+  top:10%
+  bottom: 20%;
+  width: 100%;
+  padding: 2px;
+  background: #154259;
+  text-align:center;
+}
+
+#gallery2 a:hover span {
+  display: block
+}
+
+
+
+#gallery2 img:hover{
+    -webkit-filter: brightness(150%);
+}
+
+ 
+#icons, projects{
+   width:100px;
+   margin-right:40px;
+   float:left;
+    
+}
   
-  #gallery li {
-    width: 28.3333%;
+  
+#gallery2 img{height: 150px;
+width:400px}
+  
+}  
+  
+
+@media screen and (max-width: 480px) {
+    
+    body {
+     background-color: 	#645188;
+     color: #999;
+    }
+ 
+  #about{
+  margin-top:40%;}
+  
+    .Resume_icon{
+      margin: 10% auto 30px;
+ 
+     }
+  #icons {
+  margin-top:10%;
+    
+  }
+
+
+
+#gallery2 li a p {
+  margin: auto 30% auto;
+   width:100%;
+  padding: 1% 100% 5% 5%;
+  font-size: 0.75em ;
+  color: #000;
+ 
+  
+}
+
+#gallery2 img{
+    margin-top:5%;
+    border-radius:5%;
+    height:auto;
+    width:60%;
+  }
+
+#gallery2 {
+  margin-top:40%;
+  list-style: none;
+  
   }
   
-  #gallery li:nth-child(4n) {
-    clear: left;
-  }
+#icons, projects{
+   width:100px;
+   margin-right:50px;
+   float:left;
+   margin-bottom: 30%; 
+    
+}
+ 
   
-  ***********************************/
+  
 
