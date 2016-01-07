@@ -68,34 +68,35 @@ overflow:hidden;
    width:100px;
    margin-right:40px;
    float:left;
-    
-}
+    }
   
   
-#gallery2 img{height: 150px;
-width:400px}
-  
+#gallery2 img{
+    height: 150px;
+    width:400px
+  }
+
 }  
   
 
 @media screen and (max-width: 480px) {
     
-    body {
+body {
      background-color: 	#645188;
      color: #999;
     }
  
-  #about{
-  margin-top:40%;}
+#about{
+  margin-top:40%;
+}
   
-    .Resume_icon{
-      margin: 10% auto 30px;
- 
-     }
-  #icons {
-  margin-top:10%;
-    
-  }
+.Resume_icon{
+  margin: 10% auto 10%;
+ }
+  
+#icons {
+    margin-top:10%;
+    }
 
 
 
@@ -105,9 +106,7 @@ width:400px}
   padding: 1% 100% 5% 5%;
   font-size: 0.75em ;
   color: #000;
- 
-  
-}
+ }
 
 #gallery2 img{
     margin-top:5%;
